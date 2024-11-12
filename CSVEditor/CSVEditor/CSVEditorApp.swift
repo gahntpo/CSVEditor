@@ -10,9 +10,8 @@ import SwiftUI
 @main
 struct CSVEditorApp: App {
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+        DocumentGroup(viewing: CSVViewModel.self) { configuration in
+            ContentView(viewModel: configuration.document)
         }
-        .handlesExternalEvents(matching: Set(arrayLiteral: "*"))
     }
 }

@@ -1,0 +1,15 @@
+{
+  "originHash" : "2adb555a53b5c7015c1913c95e2d6e5804f2075d934d4db6d3adc1da042d9b26",
+  "pins" : [
+    {
+      "identity" : "swiftcsv",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/swiftcsv/SwiftCSV.git",
+      "state" : {
+        "revision" : "6ab5d0fe9b6ef3c79d717eefa70862df389e74d9",
+        "version" : "0.10.0"
+      }
+    }
+  ],
+  "version" : 3
+}
